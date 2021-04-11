@@ -14,7 +14,7 @@ const routes = [
                 path: "/dashboard",
                 name: "dashboard",
                 meta: {
-                    title: '系统首页'
+                    title: '系统首页~~~就是家'
                 },
                 component: () => import (
                 /* webpackChunkName: "dashboard" */

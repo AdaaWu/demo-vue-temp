@@ -1,56 +1,68 @@
 {
-    "name": "vue-manage-system",
-    "version": "5.0.0",
-    "private": true,
-    "scripts": {
-        "serve": "vue-cli-service serve",
-        "build": "vue-cli-service build",
-        "lint": "vue-cli-service lint"
+  "name": "vue-manage-system",
+  "version": "5.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "core-js": "~3.9.1",
+    "element-plus": "~1.0.2-beta.33",
+    "vue": "~3.0.7",
+    "vue-cropperjs": "^5.0.0",
+    "vue-i18n": "^9.0.0",
+    "vue-loader-v16": "^16.0.0-beta.5.4",
+    "vue-router": "~4.0.4",
+    "vue-schart": "^2.0.0",
+    "vuex": "~4.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.11",
+    "@vue/cli-plugin-eslint": "~4.5.11",
+    "@vue/cli-plugin-router": "~4.5.11",
+    "@vue/cli-plugin-vuex": "~4.5.11",
+    "@vue/cli-service": "~4.5.11",
+    "@vue/compiler-sfc": "~3.0.7",
+    "babel-eslint": "~10.1.0",
+    "eslint": "~6.8.0",
+    "eslint-plugin-vue": "~7.7.0",
+    "sass": "~1.32.8",
+    "sass-loader": "~8.0.2",
+    "vue-cli-plugin-element-plus": "0.0.13",
+    "webpack": "4.44.2"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
     },
-    "dependencies": {
-        "axios": "^0.21.1",
-        "core-js": "~3.9.1",
-        "element-plus": "~1.0.2-beta.33",
-        "vue": "~3.0.7",
-        "vue-cropperjs": "^5.0.0",
-        "vue-i18n": "^9.0.0",
-        "vue-loader-v16": "^16.0.0-beta.5.4",
-        "vue-router": "~4.0.4",
-        "vue-schart": "^2.0.0",
-        "vuex": "~4.0.0"
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
     },
-    "devDependencies": {
-        "@vue/cli-plugin-babel": "~4.5.11",
-        "@vue/cli-plugin-eslint": "~4.5.11",
-        "@vue/cli-plugin-router": "~4.5.11",
-        "@vue/cli-plugin-vuex": "~4.5.11",
-        "@vue/cli-service": "~4.5.11",
-        "@vue/compiler-sfc": "~3.0.7",
-        "babel-eslint": "~10.1.0",
-        "eslint": "~6.8.0",
-        "eslint-plugin-vue": "~7.7.0",
-        "sass": "~1.32.8",
-        "sass-loader": "~8.0.2",
-        "vue-cli-plugin-element-plus": "0.0.13",
-        "webpack": "4.44.2"
-    },
-    "eslintConfig": {
-        "root": true,
-        "env": {
-            "node": true
-        },
-        "extends": [
-            "plugin:vue/vue3-essential",
-            "eslint:recommended"
-        ],
-        "parserOptions": {
-            "parser": "babel-eslint"
-        },
-        "rules": {}
-    },
-    "browserslist": [
-        "> 1%",
-        "last 2 versions",
-        "not dead"
-    ]
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "description": "<a href=\"https://github.com/vuejs/vue\">\r     <img src=\"https://img.shields.io/badge/vue-2.6.10-brightgreen.svg\" alt=\"vue\">\r   </a>\r   <a href=\"https://github.com/ElemeFE/element\">\r     <img src=\"https://img.shields.io/badge/element--ui-2.8.2-brightgreen.svg\" alt=\"element-ui\">\r   </a>\r   <a href=\"https://github.com/lin-xin/vue-manage-system/blob/master/LICENSE\">\r     <img src=\"https://img.shields.io/github/license/mashape/apistatus.svg\" alt=\"license\">\r   </a>\r   <a href=\"https://github.com/lin-xin/vue-manage-system/releases\">\r     <img src=\"https://img.shields.io/github/release/lin-xin/vue-manage-system.svg\" alt=\"GitHub release\">\r   </a>\r   <a href=\"https://lin-xin.gitee.io/example/work/#/donate\">\r     <img src=\"https://img.shields.io/badge/%24-donate-ff69b4.svg\" alt=\"donate\">\r   </a>",
+  "main": "babel.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lin-xin/vue-manage-system.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lin-xin/vue-manage-system/issues"
+  },
+  "homepage": "https://github.com/lin-xin/vue-manage-system#readme"
 }
